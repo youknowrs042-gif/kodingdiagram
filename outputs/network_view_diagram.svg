@@ -1,0 +1,623 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2800" height="2200" viewBox="0 0 2800 2200">
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#595959" />
+    </marker>
+    <marker id="arrowhead-gray" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#888888" />
+    </marker>
+    <filter id="shadow" x="-2%" y="-2%" width="104%" height="104%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.15" />
+    </filter>
+  </defs>
+  <rect width="2800" height="2200" fill="#FAFBFC" />
+  <text x="1400" y="35" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="bold" fill="#1a1a1a">
+    <tspan x="1400" dy="0">NETWORK VIEW — Hasil Koding Wawancara Kualitatif</tspan>
+  </text>
+  <text x="1400" y="60" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="normal" fill="#555555">
+    <tspan x="1400" dy="0">Pengembangan Sistem Informasi Pemantauan Perilaku Siswa Berbasis Website dalam Mendukung Manajemen Pembinaan Karakter di Sekolah Dasar</tspan>
+  </text>
+  <text x="1400" y="80" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="normal" fill="#777777">
+    <tspan x="1400" dy="0">Sumber Data: KS (Kepala Sekolah) • WK6 (Wali Kelas 6) • WK2 (Wali Kelas 2) • OS (Operator Sekolah)</tspan>
+  </text>
+  <g id="relations" />
+  <rect x="290" y="215" width="260" height="70" rx="8" ry="8" fill="#DAE3F3" stroke="#4472C4" stroke-width="2.2" />
+  <text x="420" y="236" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="bold" fill="#1a1a1a">
+    <tspan x="420" dy="0">Keterbatasan Sistem</tspan>
+  </text>
+  <text x="420" y="250" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="bold" fill="#1a1a1a">
+    <tspan x="420" dy="0">Pencatatan Perilaku Siswa</tspan>
+  </text>
+  <text x="420" y="264" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="bold" fill="#1a1a1a">
+    <tspan x="420" dy="0">yang Berjalan</tspan>
+  </text>
+  <line x1="420" y1="285" x2="60" y2="322" stroke="#4472C4" stroke-width="1.5" marker-end="url(#arrowhead)" />
+  <rect x="-50" y="322" width="220" height="46" rx="5" ry="5" fill="#FFF8E1" stroke="#FFC107" stroke-width="1.5" />
+  <text x="60" y="339" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="bold" fill="#333333">
+    <tspan x="60" dy="0">Pencatatan perilaku</tspan>
+  </text>
+  <text x="60" y="351" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="bold" fill="#333333">
+    <tspan x="60" dy="0">berbasis manual</tspan>
+  </text>
+  <line x1="60" y1="368" x2="60" y2="389" stroke="#4472C499" stroke-width="0.8" marker-end="" />
+  <rect x="-40" y="387" width="200" height="22" rx="3" ry="3" fill="white" stroke="#4472C477" stroke-width="0.7" />
+  <text x="60" y="402" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="60" dy="0">Pencatatan manual (KS, WK6, WK2)</tspan>
+  </text>
+  <rect x="-40" y="415" width="200" height="22" rx="3" ry="3" fill="white" stroke="#4472C477" stroke-width="0.7" />
+  <text x="60" y="430" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="60" dy="0">Buku absensi/jurnal (KS)</tspan>
+  </text>
+  <rect x="-40" y="443" width="200" height="22" rx="3" ry="3" fill="white" stroke="#4472C477" stroke-width="0.7" />
+  <text x="60" y="458" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="60" dy="0">Buku anekdot (KS, WK6)</tspan>
+  </text>
+  <rect x="-40" y="471" width="200" height="22" rx="3" ry="3" fill="white" stroke="#4472C477" stroke-width="0.7" />
+  <text x="60" y="486" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="60" dy="0">Data perilaku belum digital (OS)</tspan>
+  </text>
+  <rect x="-40" y="499" width="200" height="22" rx="3" ry="3" fill="white" stroke="#4472C477" stroke-width="0.7" />
+  <text x="60" y="514" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="60" dy="0">Guru kelas penanggung jawab (KS)</tspan>
+  </text>
+  <line x1="-45" y1="389" x2="-45" y2="510" stroke="#4472C444" stroke-width="1.5" />
+  <line x1="60" y1="368" x2="-45" y2="389" stroke="#4472C466" stroke-width="1" />
+  <line x1="-45" y1="398" x2="-40" y2="398" stroke="#4472C466" stroke-width="0.8" />
+  <line x1="-45" y1="426" x2="-40" y2="426" stroke="#4472C466" stroke-width="0.8" />
+  <line x1="-45" y1="454" x2="-40" y2="454" stroke="#4472C466" stroke-width="0.8" />
+  <line x1="-45" y1="482" x2="-40" y2="482" stroke="#4472C466" stroke-width="0.8" />
+  <line x1="-45" y1="510" x2="-40" y2="510" stroke="#4472C466" stroke-width="0.8" />
+  <line x1="420" y1="285" x2="300" y2="322" stroke="#4472C4" stroke-width="1.5" marker-end="url(#arrowhead)" />
+  <rect x="190" y="322" width="220" height="46" rx="5" ry="5" fill="#FFF8E1" stroke="#FFC107" stroke-width="1.5" />
+  <text x="300" y="339" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="bold" fill="#333333">
+    <tspan x="300" dy="0">Format pencatatan</tspan>
+  </text>
+  <text x="300" y="351" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="bold" fill="#333333">
+    <tspan x="300" dy="0">tidak terstandar</tspan>
+  </text>
+  <line x1="300" y1="368" x2="300" y2="389" stroke="#4472C499" stroke-width="0.8" marker-end="" />
+  <rect x="200" y="387" width="200" height="22" rx="3" ry="3" fill="white" stroke="#4472C477" stroke-width="0.7" />
+  <text x="300" y="402" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="300" dy="0">Format tidak seragam (KS, WK6)</tspan>
+  </text>
+  <rect x="200" y="415" width="200" height="22" rx="3" ry="3" fill="white" stroke="#4472C477" stroke-width="0.7" />
+  <text x="300" y="430" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="300" dy="0">Bergantung kebiasaan guru (KS)</tspan>
+  </text>
+  <rect x="200" y="443" width="200" height="22" rx="3" ry="3" fill="white" stroke="#4472C477" stroke-width="0.7" />
+  <text x="300" y="458" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="300" dy="0">Keterlambatan belum detail (KS, WK2)</tspan>
+  </text>
+  <rect x="200" y="471" width="200" height="22" rx="3" ry="3" fill="white" stroke="#4472C477" stroke-width="0.7" />
+  <text x="300" y="486" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="300" dy="0">Belum ada pengelompokan (OS)</tspan>
+  </text>
+  <line x1="195" y1="389" x2="195" y2="482" stroke="#4472C444" stroke-width="1.5" />
+  <line x1="300" y1="368" x2="195" y2="389" stroke="#4472C466" stroke-width="1" />
+  <line x1="195" y1="398" x2="200" y2="398" stroke="#4472C466" stroke-width="0.8" />
+  <line x1="195" y1="426" x2="200" y2="426" stroke="#4472C466" stroke-width="0.8" />
+  <line x1="195" y1="454" x2="200" y2="454" stroke="#4472C466" stroke-width="0.8" />
+  <line x1="195" y1="482" x2="200" y2="482" stroke="#4472C466" stroke-width="0.8" />
+  <line x1="420" y1="285" x2="540" y2="322" stroke="#4472C4" stroke-width="1.5" marker-end="url(#arrowhead)" />
+  <rect x="430" y="322" width="220" height="46" rx="5" ry="5" fill="#FFF8E1" stroke="#FFC107" stroke-width="1.5" />
+  <text x="540" y="339" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="bold" fill="#333333">
+    <tspan x="540" dy="0">Keterbatasan dokumentasi</tspan>
+  </text>
+  <text x="540" y="351" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="bold" fill="#333333">
+    <tspan x="540" dy="0">perilaku positif &amp;amp; prestasi</tspan>
+  </text>
+  <line x1="540" y1="368" x2="540" y2="389" stroke="#4472C499" stroke-width="0.8" marker-end="" />
+  <rect x="440" y="387" width="200" height="22" rx="3" ry="3" fill="white" stroke="#4472C477" stroke-width="0.7" />
+  <text x="540" y="402" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="540" dy="0">Fokus pelanggaran (KS)</tspan>
+  </text>
+  <rect x="440" y="415" width="200" height="22" rx="3" ry="3" fill="white" stroke="#4472C477" stroke-width="0.7" />
+  <text x="540" y="430" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="540" dy="0">Perilaku positif belum tercatat (KS...</tspan>
+  </text>
+  <rect x="440" y="443" width="200" height="22" rx="3" ry="3" fill="white" stroke="#4472C477" stroke-width="0.7" />
+  <text x="540" y="458" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="540" dy="0">Pencatatan harus seimbang (WK6)</tspan>
+  </text>
+  <rect x="440" y="471" width="200" height="22" rx="3" ry="3" fill="white" stroke="#4472C477" stroke-width="0.7" />
+  <text x="540" y="486" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="540" dy="0">Potensi siswa belum terdokumentasi ...</tspan>
+  </text>
+  <rect x="440" y="499" width="200" height="22" rx="3" ry="3" fill="white" stroke="#4472C477" stroke-width="0.7" />
+  <text x="540" y="514" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="540" dy="0">Penguatan positif penting (WK2)</tspan>
+  </text>
+  <line x1="435" y1="389" x2="435" y2="510" stroke="#4472C444" stroke-width="1.5" />
+  <line x1="540" y1="368" x2="435" y2="389" stroke="#4472C466" stroke-width="1" />
+  <line x1="435" y1="398" x2="440" y2="398" stroke="#4472C466" stroke-width="0.8" />
+  <line x1="435" y1="426" x2="440" y2="426" stroke="#4472C466" stroke-width="0.8" />
+  <line x1="435" y1="454" x2="440" y2="454" stroke="#4472C466" stroke-width="0.8" />
+  <line x1="435" y1="482" x2="440" y2="482" stroke="#4472C466" stroke-width="0.8" />
+  <line x1="435" y1="510" x2="440" y2="510" stroke="#4472C466" stroke-width="0.8" />
+  <line x1="420" y1="285" x2="780" y2="322" stroke="#4472C4" stroke-width="1.5" marker-end="url(#arrowhead)" />
+  <rect x="670" y="322" width="220" height="46" rx="5" ry="5" fill="#FFF8E1" stroke="#FFC107" stroke-width="1.5" />
+  <text x="780" y="339" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="bold" fill="#333333">
+    <tspan x="780" dy="0">Kesulitan pengelolaan</tspan>
+  </text>
+  <text x="780" y="351" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="bold" fill="#333333">
+    <tspan x="780" dy="0">dan pencarian data</tspan>
+  </text>
+  <line x1="780" y1="368" x2="780" y2="389" stroke="#4472C499" stroke-width="0.8" marker-end="" />
+  <rect x="680" y="387" width="200" height="22" rx="3" ry="3" fill="white" stroke="#4472C477" stroke-width="0.7" />
+  <text x="780" y="402" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="780" dy="0">Data sulit dicari kembali (KS)</tspan>
+  </text>
+  <rect x="680" y="415" width="200" height="22" rx="3" ry="3" fill="white" stroke="#4472C477" stroke-width="0.7" />
+  <text x="780" y="430" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="780" dy="0">Data rawan hilang/rusak (KS, OS)</tspan>
+  </text>
+  <rect x="680" y="443" width="200" height="22" rx="3" ry="3" fill="white" stroke="#4472C477" stroke-width="0.7" />
+  <text x="780" y="458" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="780" dy="0">Data tersebar/tidak terpusat (KS, OS)</tspan>
+  </text>
+  <rect x="680" y="471" width="200" height="22" rx="3" ry="3" fill="white" stroke="#4472C477" stroke-width="0.7" />
+  <text x="780" y="486" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="780" dy="0">Rekapitulasi memakan waktu (KS)</tspan>
+  </text>
+  <rect x="680" y="499" width="200" height="22" rx="3" ry="3" fill="white" stroke="#4472C477" stroke-width="0.7" />
+  <text x="780" y="514" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="780" dy="0">Keterbatasan waktu pencatatan (WK6,...</tspan>
+  </text>
+  <line x1="675" y1="389" x2="675" y2="510" stroke="#4472C444" stroke-width="1.5" />
+  <line x1="780" y1="368" x2="675" y2="389" stroke="#4472C466" stroke-width="1" />
+  <line x1="675" y1="398" x2="680" y2="398" stroke="#4472C466" stroke-width="0.8" />
+  <line x1="675" y1="426" x2="680" y2="426" stroke="#4472C466" stroke-width="0.8" />
+  <line x1="675" y1="454" x2="680" y2="454" stroke="#4472C466" stroke-width="0.8" />
+  <line x1="675" y1="482" x2="680" y2="482" stroke="#4472C466" stroke-width="0.8" />
+  <line x1="675" y1="510" x2="680" y2="510" stroke="#4472C466" stroke-width="0.8" />
+  <rect x="1070" y="215" width="260" height="70" rx="8" ry="8" fill="#D6E8F7" stroke="#2E75B6" stroke-width="2.2" />
+  <text x="1200" y="243" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="bold" fill="#1a1a1a">
+    <tspan x="1200" dy="0">Ketidakefisienan Alur</tspan>
+  </text>
+  <text x="1200" y="257" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="bold" fill="#1a1a1a">
+    <tspan x="1200" dy="0">Pelaporan dan Komunikasi</tspan>
+  </text>
+  <line x1="1200" y1="285" x2="1055" y2="322" stroke="#2E75B6" stroke-width="1.5" marker-end="url(#arrowhead)" />
+  <rect x="945" y="322" width="220" height="46" rx="5" ry="5" fill="#FFF8E1" stroke="#FFC107" stroke-width="1.5" />
+  <text x="1055" y="339" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="bold" fill="#333333">
+    <tspan x="1055" dy="0">Alur pelaporan</tspan>
+  </text>
+  <text x="1055" y="351" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="bold" fill="#333333">
+    <tspan x="1055" dy="0">tidak efisien</tspan>
+  </text>
+  <line x1="1055" y1="368" x2="1055" y2="389" stroke="#2E75B699" stroke-width="0.8" marker-end="" />
+  <rect x="955" y="387" width="200" height="22" rx="3" ry="3" fill="white" stroke="#2E75B677" stroke-width="0.7" />
+  <text x="1055" y="402" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="1055" dy="0">Alur pelaporan konvensional (KS)</tspan>
+  </text>
+  <rect x="955" y="415" width="200" height="22" rx="3" ry="3" fill="white" stroke="#2E75B677" stroke-width="0.7" />
+  <text x="1055" y="430" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="1055" dy="0">Pengawasan manajerial kurang prakti...</tspan>
+  </text>
+  <rect x="955" y="443" width="200" height="22" rx="3" ry="3" fill="white" stroke="#2E75B677" stroke-width="0.7" />
+  <text x="1055" y="458" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="1055" dy="0">Pelaporan situasional (WK6)</tspan>
+  </text>
+  <line x1="950" y1="389" x2="950" y2="454" stroke="#2E75B644" stroke-width="1.5" />
+  <line x1="1055" y1="368" x2="950" y2="389" stroke="#2E75B666" stroke-width="1" />
+  <line x1="950" y1="398" x2="955" y2="398" stroke="#2E75B666" stroke-width="0.8" />
+  <line x1="950" y1="426" x2="955" y2="426" stroke="#2E75B666" stroke-width="0.8" />
+  <line x1="950" y1="454" x2="955" y2="454" stroke="#2E75B666" stroke-width="0.8" />
+  <line x1="1200" y1="285" x2="1345" y2="322" stroke="#2E75B6" stroke-width="1.5" marker-end="url(#arrowhead)" />
+  <rect x="1235" y="322" width="220" height="46" rx="5" ry="5" fill="#FFF8E1" stroke="#FFC107" stroke-width="1.5" />
+  <text x="1345" y="339" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="bold" fill="#333333">
+    <tspan x="1345" dy="0">Komunikasi dengan orang tua</tspan>
+  </text>
+  <text x="1345" y="351" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="bold" fill="#333333">
+    <tspan x="1345" dy="0">bersifat insidental</tspan>
+  </text>
+  <line x1="1345" y1="368" x2="1345" y2="389" stroke="#2E75B699" stroke-width="0.8" marker-end="" />
+  <rect x="1245" y="387" width="200" height="22" rx="3" ry="3" fill="white" stroke="#2E75B677" stroke-width="0.7" />
+  <text x="1345" y="402" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="1345" dy="0">Komunikasi orang tua manual (KS, WK6)</tspan>
+  </text>
+  <rect x="1245" y="415" width="200" height="22" rx="3" ry="3" fill="white" stroke="#2E75B677" stroke-width="0.7" />
+  <text x="1345" y="430" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="1345" dy="0">Informasi terlambat ke orang tua (KS)</tspan>
+  </text>
+  <rect x="1245" y="443" width="200" height="22" rx="3" ry="3" fill="white" stroke="#2E75B677" stroke-width="0.7" />
+  <text x="1345" y="458" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="1345" dy="0">Komunikasi via WhatsApp (WK2)</tspan>
+  </text>
+  <rect x="1245" y="471" width="200" height="22" rx="3" ry="3" fill="white" stroke="#2E75B677" stroke-width="0.7" />
+  <text x="1345" y="486" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="1345" dy="0">Notifikasi perlu diatur (WK6, WK2)</tspan>
+  </text>
+  <rect x="1245" y="499" width="200" height="22" rx="3" ry="3" fill="white" stroke="#2E75B677" stroke-width="0.7" />
+  <text x="1345" y="514" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="1345" dy="0">Peran orang tua besar di kelas rend...</tspan>
+  </text>
+  <rect x="1245" y="527" width="200" height="22" rx="3" ry="3" fill="white" stroke="#2E75B677" stroke-width="0.7" />
+  <text x="1345" y="542" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="1345" dy="0">Kendala komunikasi orang tua (WK2)</tspan>
+  </text>
+  <line x1="1240" y1="389" x2="1240" y2="538" stroke="#2E75B644" stroke-width="1.5" />
+  <line x1="1345" y1="368" x2="1240" y2="389" stroke="#2E75B666" stroke-width="1" />
+  <line x1="1240" y1="398" x2="1245" y2="398" stroke="#2E75B666" stroke-width="0.8" />
+  <line x1="1240" y1="426" x2="1245" y2="426" stroke="#2E75B666" stroke-width="0.8" />
+  <line x1="1240" y1="454" x2="1245" y2="454" stroke="#2E75B666" stroke-width="0.8" />
+  <line x1="1240" y1="482" x2="1245" y2="482" stroke="#2E75B666" stroke-width="0.8" />
+  <line x1="1240" y1="510" x2="1245" y2="510" stroke="#2E75B666" stroke-width="0.8" />
+  <line x1="1240" y1="538" x2="1245" y2="538" stroke="#2E75B666" stroke-width="0.8" />
+  <rect x="1920" y="215" width="260" height="70" rx="8" ry="8" fill="#FBE5D6" stroke="#ED7D31" stroke-width="2.2" />
+  <text x="2050" y="236" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="bold" fill="#1a1a1a">
+    <tspan x="2050" dy="0">Penghargaan dan Pembinaan</tspan>
+  </text>
+  <text x="2050" y="250" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="bold" fill="#1a1a1a">
+    <tspan x="2050" dy="0">Karakter Belum Terdokumentasi</tspan>
+  </text>
+  <text x="2050" y="264" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="bold" fill="#1a1a1a">
+    <tspan x="2050" dy="0">secara Sistematis</tspan>
+  </text>
+  <line x1="2050" y1="285" x2="1905" y2="322" stroke="#ED7D31" stroke-width="1.5" marker-end="url(#arrowhead)" />
+  <rect x="1795" y="322" width="220" height="46" rx="5" ry="5" fill="#FFF8E1" stroke="#FFC107" stroke-width="1.5" />
+  <text x="1905" y="339" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="bold" fill="#333333">
+    <tspan x="1905" dy="0">Penghargaan belum terstruktur</tspan>
+  </text>
+  <text x="1905" y="351" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="bold" fill="#333333">
+    <tspan x="1905" dy="0">dan terdokumentasi</tspan>
+  </text>
+  <line x1="1905" y1="368" x2="1905" y2="389" stroke="#ED7D3199" stroke-width="0.8" marker-end="" />
+  <rect x="1805" y="387" width="200" height="22" rx="3" ry="3" fill="white" stroke="#ED7D3177" stroke-width="0.7" />
+  <text x="1905" y="402" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="1905" dy="0">Penghargaan sederhana (KS)</tspan>
+  </text>
+  <rect x="1805" y="415" width="200" height="22" rx="3" ry="3" fill="white" stroke="#ED7D3177" stroke-width="0.7" />
+  <text x="1905" y="430" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="1905" dy="0">Penghargaan belum terdokumentasi (KS)</tspan>
+  </text>
+  <rect x="1805" y="443" width="200" height="22" rx="3" ry="3" fill="white" stroke="#ED7D3177" stroke-width="0.7" />
+  <text x="1905" y="458" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="1905" dy="0">Apresiasi lisan (KS)</tspan>
+  </text>
+  <rect x="1805" y="471" width="200" height="22" rx="3" ry="3" fill="white" stroke="#ED7D3177" stroke-width="0.7" />
+  <text x="1905" y="486" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="1905" dy="0">Reward spontan (WK2, WK6)</tspan>
+  </text>
+  <rect x="1805" y="499" width="200" height="22" rx="3" ry="3" fill="white" stroke="#ED7D3177" stroke-width="0.7" />
+  <text x="1905" y="514" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="1905" dy="0">Pencatatan reward belum direkap (WK2)</tspan>
+  </text>
+  <rect x="1805" y="527" width="200" height="22" rx="3" ry="3" fill="white" stroke="#ED7D3177" stroke-width="0.7" />
+  <text x="1905" y="542" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="1905" dy="0">Penghargaan terstruktur belum berja...</tspan>
+  </text>
+  <line x1="1800" y1="389" x2="1800" y2="538" stroke="#ED7D3144" stroke-width="1.5" />
+  <line x1="1905" y1="368" x2="1800" y2="389" stroke="#ED7D3166" stroke-width="1" />
+  <line x1="1800" y1="398" x2="1805" y2="398" stroke="#ED7D3166" stroke-width="0.8" />
+  <line x1="1800" y1="426" x2="1805" y2="426" stroke="#ED7D3166" stroke-width="0.8" />
+  <line x1="1800" y1="454" x2="1805" y2="454" stroke="#ED7D3166" stroke-width="0.8" />
+  <line x1="1800" y1="482" x2="1805" y2="482" stroke="#ED7D3166" stroke-width="0.8" />
+  <line x1="1800" y1="510" x2="1805" y2="510" stroke="#ED7D3166" stroke-width="0.8" />
+  <line x1="1800" y1="538" x2="1805" y2="538" stroke="#ED7D3166" stroke-width="0.8" />
+  <line x1="2050" y1="285" x2="2195" y2="322" stroke="#ED7D31" stroke-width="1.5" marker-end="url(#arrowhead)" />
+  <rect x="2085" y="322" width="220" height="46" rx="5" ry="5" fill="#FFF8E1" stroke="#FFC107" stroke-width="1.5" />
+  <text x="2195" y="339" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="bold" fill="#333333">
+    <tspan x="2195" dy="0">Proses pembinaan karakter</tspan>
+  </text>
+  <text x="2195" y="351" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="bold" fill="#333333">
+    <tspan x="2195" dy="0">melalui pembiasaan harian</tspan>
+  </text>
+  <line x1="2195" y1="368" x2="2195" y2="389" stroke="#ED7D3199" stroke-width="0.8" marker-end="" />
+  <rect x="2095" y="387" width="200" height="22" rx="3" ry="3" fill="white" stroke="#ED7D3177" stroke-width="0.7" />
+  <text x="2195" y="402" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="2195" dy="0">Teguran bertahap (KS)</tspan>
+  </text>
+  <rect x="2095" y="415" width="200" height="22" rx="3" ry="3" fill="white" stroke="#ED7D3177" stroke-width="0.7" />
+  <text x="2195" y="430" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="2195" dy="0">Tindak lanjut belum terdokumentasi ...</tspan>
+  </text>
+  <rect x="2095" y="443" width="200" height="22" rx="3" ry="3" fill="white" stroke="#ED7D3177" stroke-width="0.7" />
+  <text x="2195" y="458" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="2195" dy="0">Rekam jejak pembinaan penting (KS)</tspan>
+  </text>
+  <rect x="2095" y="471" width="200" height="22" rx="3" ry="3" fill="white" stroke="#ED7D3177" stroke-width="0.7" />
+  <text x="2195" y="486" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="2195" dy="0">Pembinaan karakter harian (WK6)</tspan>
+  </text>
+  <rect x="2095" y="499" width="200" height="22" rx="3" ry="3" fill="white" stroke="#ED7D3177" stroke-width="0.7" />
+  <text x="2195" y="514" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="2195" dy="0">Dokumentasi pembinaan belum tertata...</tspan>
+  </text>
+  <rect x="2095" y="527" width="200" height="22" rx="3" ry="3" fill="white" stroke="#ED7D3177" stroke-width="0.7" />
+  <text x="2195" y="542" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="2195" dy="0">Pembinaan melalui pembiasaan (WK2)</tspan>
+  </text>
+  <rect x="2095" y="555" width="200" height="22" rx="3" ry="3" fill="white" stroke="#ED7D3177" stroke-width="0.7" />
+  <text x="2195" y="570" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="2195" dy="0">Pencatatan membantu pemahaman guru ...</tspan>
+  </text>
+  <line x1="2090" y1="389" x2="2090" y2="566" stroke="#ED7D3144" stroke-width="1.5" />
+  <line x1="2195" y1="368" x2="2090" y2="389" stroke="#ED7D3166" stroke-width="1" />
+  <line x1="2090" y1="398" x2="2095" y2="398" stroke="#ED7D3166" stroke-width="0.8" />
+  <line x1="2090" y1="426" x2="2095" y2="426" stroke="#ED7D3166" stroke-width="0.8" />
+  <line x1="2090" y1="454" x2="2095" y2="454" stroke="#ED7D3166" stroke-width="0.8" />
+  <line x1="2090" y1="482" x2="2095" y2="482" stroke="#ED7D3166" stroke-width="0.8" />
+  <line x1="2090" y1="510" x2="2095" y2="510" stroke="#ED7D3166" stroke-width="0.8" />
+  <line x1="2090" y1="538" x2="2095" y2="538" stroke="#ED7D3166" stroke-width="0.8" />
+  <line x1="2090" y1="566" x2="2095" y2="566" stroke="#ED7D3166" stroke-width="0.8" />
+  <rect x="570" y="1315" width="260" height="70" rx="8" ry="8" fill="#E2EFDA" stroke="#70AD47" stroke-width="2.2" />
+  <text x="700" y="1336" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="bold" fill="#1a1a1a">
+    <tspan x="700" dy="0">Kebutuhan Fitur dan Fungsi</tspan>
+  </text>
+  <text x="700" y="1350" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="bold" fill="#1a1a1a">
+    <tspan x="700" dy="0">Sistem Informasi</tspan>
+  </text>
+  <text x="700" y="1364" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="bold" fill="#1a1a1a">
+    <tspan x="700" dy="0">Berbasis Website</tspan>
+  </text>
+  <line x1="700" y1="1385" x2="700" y2="1422" stroke="#70AD47" stroke-width="1.5" marker-end="url(#arrowhead)" />
+  <rect x="590" y="1422" width="220" height="46" rx="5" ry="5" fill="#FFF8E1" stroke="#FFC107" stroke-width="1.5" />
+  <text x="700" y="1439" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="bold" fill="#333333">
+    <tspan x="700" dy="0">Kebutuhan fitur dan</tspan>
+  </text>
+  <text x="700" y="1451" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="bold" fill="#333333">
+    <tspan x="700" dy="0">fungsi sistem informasi</tspan>
+  </text>
+  <line x1="700" y1="1468" x2="700" y2="1489" stroke="#70AD4799" stroke-width="0.8" marker-end="" />
+  <rect x="600" y="1487" width="200" height="22" rx="3" ry="3" fill="white" stroke="#70AD4777" stroke-width="0.7" />
+  <text x="700" y="1502" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="700" dy="0">Kebutuhan fitur lengkap (KS)</tspan>
+  </text>
+  <rect x="600" y="1515" width="200" height="22" rx="3" ry="3" fill="white" stroke="#70AD4777" stroke-width="0.7" />
+  <text x="700" y="1530" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="700" dy="0">Kebutuhan rekap otomatis (KS, WK6, ...</tspan>
+  </text>
+  <rect x="600" y="1543" width="200" height="22" rx="3" ry="3" fill="white" stroke="#70AD4777" stroke-width="0.7" />
+  <text x="700" y="1558" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="700" dy="0">Sistem harus ringan &amp;amp; mobile (KS, OS)</tspan>
+  </text>
+  <rect x="600" y="1571" width="200" height="22" rx="3" ry="3" fill="white" stroke="#70AD4777" stroke-width="0.7" />
+  <text x="700" y="1586" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="700" dy="0">Kebutuhan pencatatan cepat (WK6, WK2)</tspan>
+  </text>
+  <rect x="600" y="1599" width="200" height="22" rx="3" ry="3" fill="white" stroke="#70AD4777" stroke-width="0.7" />
+  <text x="700" y="1614" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="700" dy="0">Kebutuhan sistem poin (WK6, WK2)</tspan>
+  </text>
+  <rect x="600" y="1627" width="200" height="22" rx="3" ry="3" fill="white" stroke="#70AD4777" stroke-width="0.7" />
+  <text x="700" y="1642" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="700" dy="0">Kebutuhan fitur pencarian (OS)</tspan>
+  </text>
+  <rect x="600" y="1655" width="200" height="22" rx="3" ry="3" fill="white" stroke="#70AD4777" stroke-width="0.7" />
+  <text x="700" y="1670" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="700" dy="0">Kebutuhan laporan otomatis (OS)</tspan>
+  </text>
+  <rect x="600" y="1683" width="200" height="22" rx="3" ry="3" fill="white" stroke="#70AD4777" stroke-width="0.7" />
+  <text x="700" y="1698" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="700" dy="0">Kebutuhan pembagian akses (OS)</tspan>
+  </text>
+  <rect x="600" y="1711" width="200" height="22" rx="3" ry="3" fill="white" stroke="#70AD4777" stroke-width="0.7" />
+  <text x="700" y="1726" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="700" dy="0">Kebutuhan keamanan data (OS)</tspan>
+  </text>
+  <rect x="600" y="1739" width="200" height="22" rx="3" ry="3" fill="white" stroke="#70AD4777" stroke-width="0.7" />
+  <text x="700" y="1754" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="700" dy="0">Tampilan sederhana &amp;amp; ringkas (OS)</tspan>
+  </text>
+  <rect x="600" y="1767" width="200" height="22" rx="3" ry="3" fill="white" stroke="#70AD4777" stroke-width="0.7" />
+  <text x="700" y="1782" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="700" dy="0">Kebutuhan pemantauan menyeluruh (KS)</tspan>
+  </text>
+  <rect x="600" y="1795" width="200" height="22" rx="3" ry="3" fill="white" stroke="#70AD4777" stroke-width="0.7" />
+  <text x="700" y="1810" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="700" dy="0">Sistem poin perilaku otomatis (OS)</tspan>
+  </text>
+  <rect x="600" y="1823" width="200" height="22" rx="3" ry="3" fill="white" stroke="#70AD4777" stroke-width="0.7" />
+  <text x="700" y="1838" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="700" dy="0">Kebutuhan data komprehensif (OS)</tspan>
+  </text>
+  <rect x="600" y="1851" width="200" height="22" rx="3" ry="3" fill="white" stroke="#70AD4777" stroke-width="0.7" />
+  <text x="700" y="1866" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="700" dy="0">Kebutuhan digitalisasi data (OS)</tspan>
+  </text>
+  <rect x="600" y="1879" width="200" height="22" rx="3" ry="3" fill="white" stroke="#70AD4777" stroke-width="0.7" />
+  <text x="700" y="1894" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="700" dy="0">Laporan disesuaikan audiens (WK2)</tspan>
+  </text>
+  <line x1="595" y1="1489" x2="595" y2="1890" stroke="#70AD4744" stroke-width="1.5" />
+  <line x1="700" y1="1468" x2="595" y2="1489" stroke="#70AD4766" stroke-width="1" />
+  <line x1="595" y1="1498" x2="600" y2="1498" stroke="#70AD4766" stroke-width="0.8" />
+  <line x1="595" y1="1526" x2="600" y2="1526" stroke="#70AD4766" stroke-width="0.8" />
+  <line x1="595" y1="1554" x2="600" y2="1554" stroke="#70AD4766" stroke-width="0.8" />
+  <line x1="595" y1="1582" x2="600" y2="1582" stroke="#70AD4766" stroke-width="0.8" />
+  <line x1="595" y1="1610" x2="600" y2="1610" stroke="#70AD4766" stroke-width="0.8" />
+  <line x1="595" y1="1638" x2="600" y2="1638" stroke="#70AD4766" stroke-width="0.8" />
+  <line x1="595" y1="1666" x2="600" y2="1666" stroke="#70AD4766" stroke-width="0.8" />
+  <line x1="595" y1="1694" x2="600" y2="1694" stroke="#70AD4766" stroke-width="0.8" />
+  <line x1="595" y1="1722" x2="600" y2="1722" stroke="#70AD4766" stroke-width="0.8" />
+  <line x1="595" y1="1750" x2="600" y2="1750" stroke="#70AD4766" stroke-width="0.8" />
+  <line x1="595" y1="1778" x2="600" y2="1778" stroke="#70AD4766" stroke-width="0.8" />
+  <line x1="595" y1="1806" x2="600" y2="1806" stroke="#70AD4766" stroke-width="0.8" />
+  <line x1="595" y1="1834" x2="600" y2="1834" stroke="#70AD4766" stroke-width="0.8" />
+  <line x1="595" y1="1862" x2="600" y2="1862" stroke="#70AD4766" stroke-width="0.8" />
+  <line x1="595" y1="1890" x2="600" y2="1890" stroke="#70AD4766" stroke-width="0.8" />
+  <rect x="1820" y="1315" width="260" height="70" rx="8" ry="8" fill="#E8D5F5" stroke="#7030A0" stroke-width="2.2" />
+  <text x="1950" y="1336" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="bold" fill="#1a1a1a">
+    <tspan x="1950" dy="0">Kesiapan, Tantangan,</tspan>
+  </text>
+  <text x="1950" y="1350" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="bold" fill="#1a1a1a">
+    <tspan x="1950" dy="0">dan Dukungan</tspan>
+  </text>
+  <text x="1950" y="1364" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" font-weight="bold" fill="#1a1a1a">
+    <tspan x="1950" dy="0">Implementasi Sistem</tspan>
+  </text>
+  <line x1="1950" y1="1385" x2="1710" y2="1422" stroke="#7030A0" stroke-width="1.5" marker-end="url(#arrowhead)" />
+  <rect x="1600" y="1422" width="220" height="46" rx="5" ry="5" fill="#FFF8E1" stroke="#FFC107" stroke-width="1.5" />
+  <text x="1710" y="1439" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="bold" fill="#333333">
+    <tspan x="1710" dy="0">Ketersediaan infrastruktur</tspan>
+  </text>
+  <text x="1710" y="1451" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="bold" fill="#333333">
+    <tspan x="1710" dy="0">dan kesiapan teknis</tspan>
+  </text>
+  <line x1="1710" y1="1468" x2="1710" y2="1489" stroke="#7030A099" stroke-width="0.8" marker-end="" />
+  <rect x="1610" y="1487" width="200" height="22" rx="3" ry="3" fill="white" stroke="#7030A077" stroke-width="0.7" />
+  <text x="1710" y="1502" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="1710" dy="0">Internet tersedia tapi fluktuatif (OS)</tspan>
+  </text>
+  <rect x="1610" y="1515" width="200" height="22" rx="3" ry="3" fill="white" stroke="#7030A077" stroke-width="0.7" />
+  <text x="1710" y="1530" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="1710" dy="0">Perangkat tersedia (OS)</tspan>
+  </text>
+  <rect x="1610" y="1543" width="200" height="22" rx="3" ry="3" fill="white" stroke="#7030A077" stroke-width="0.7" />
+  <text x="1710" y="1558" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="1710" dy="0">Literasi teknologi guru bervariasi ...</tspan>
+  </text>
+  <rect x="1610" y="1571" width="200" height="22" rx="3" ry="3" fill="white" stroke="#7030A077" stroke-width="0.7" />
+  <text x="1710" y="1586" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="1710" dy="0">Belum pernah pakai aplikasi khusus ...</tspan>
+  </text>
+  <line x1="1605" y1="1489" x2="1605" y2="1582" stroke="#7030A044" stroke-width="1.5" />
+  <line x1="1710" y1="1468" x2="1605" y2="1489" stroke="#7030A066" stroke-width="1" />
+  <line x1="1605" y1="1498" x2="1610" y2="1498" stroke="#7030A066" stroke-width="0.8" />
+  <line x1="1605" y1="1526" x2="1610" y2="1526" stroke="#7030A066" stroke-width="0.8" />
+  <line x1="1605" y1="1554" x2="1610" y2="1554" stroke="#7030A066" stroke-width="0.8" />
+  <line x1="1605" y1="1582" x2="1610" y2="1582" stroke="#7030A066" stroke-width="0.8" />
+  <line x1="1950" y1="1385" x2="1950" y2="1422" stroke="#7030A0" stroke-width="1.5" marker-end="url(#arrowhead)" />
+  <rect x="1840" y="1422" width="220" height="46" rx="5" ry="5" fill="#FFF8E1" stroke="#FFC107" stroke-width="1.5" />
+  <text x="1950" y="1439" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="bold" fill="#333333">
+    <tspan x="1950" dy="0">Kekhawatiran dan potensi</tspan>
+  </text>
+  <text x="1950" y="1451" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="bold" fill="#333333">
+    <tspan x="1950" dy="0">hambatan implementasi</tspan>
+  </text>
+  <line x1="1950" y1="1468" x2="1950" y2="1489" stroke="#7030A099" stroke-width="0.8" marker-end="" />
+  <rect x="1850" y="1487" width="200" height="22" rx="3" ry="3" fill="white" stroke="#7030A077" stroke-width="0.7" />
+  <text x="1950" y="1502" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="1950" dy="0">Kekhawatiran kesiapan guru (KS)</tspan>
+  </text>
+  <rect x="1850" y="1515" width="200" height="22" rx="3" ry="3" fill="white" stroke="#7030A077" stroke-width="0.7" />
+  <text x="1950" y="1530" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="1950" dy="0">Kekhawatiran jaringan internet (KS)</tspan>
+  </text>
+  <rect x="1850" y="1543" width="200" height="22" rx="3" ry="3" fill="white" stroke="#7030A077" stroke-width="0.7" />
+  <text x="1950" y="1558" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="1950" dy="0">Kekhawatiran sistem rumit (WK6, WK2)</tspan>
+  </text>
+  <rect x="1850" y="1571" width="200" height="22" rx="3" ry="3" fill="white" stroke="#7030A077" stroke-width="0.7" />
+  <text x="1950" y="1586" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="1950" dy="0">Kebutuhan pelatihan &amp;amp; pendampingan ...</tspan>
+  </text>
+  <rect x="1850" y="1599" width="200" height="22" rx="3" ry="3" fill="white" stroke="#7030A077" stroke-width="0.7" />
+  <text x="1950" y="1614" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="1950" dy="0">Hambatan kebiasaan manual (OS)</tspan>
+  </text>
+  <rect x="1850" y="1627" width="200" height="22" rx="3" ry="3" fill="white" stroke="#7030A077" stroke-width="0.7" />
+  <text x="1950" y="1642" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="1950" dy="0">Kemampuan teknologi tidak merata (OS)</tspan>
+  </text>
+  <line x1="1845" y1="1489" x2="1845" y2="1638" stroke="#7030A044" stroke-width="1.5" />
+  <line x1="1950" y1="1468" x2="1845" y2="1489" stroke="#7030A066" stroke-width="1" />
+  <line x1="1845" y1="1498" x2="1850" y2="1498" stroke="#7030A066" stroke-width="0.8" />
+  <line x1="1845" y1="1526" x2="1850" y2="1526" stroke="#7030A066" stroke-width="0.8" />
+  <line x1="1845" y1="1554" x2="1850" y2="1554" stroke="#7030A066" stroke-width="0.8" />
+  <line x1="1845" y1="1582" x2="1850" y2="1582" stroke="#7030A066" stroke-width="0.8" />
+  <line x1="1845" y1="1610" x2="1850" y2="1610" stroke="#7030A066" stroke-width="0.8" />
+  <line x1="1845" y1="1638" x2="1850" y2="1638" stroke="#7030A066" stroke-width="0.8" />
+  <line x1="1950" y1="1385" x2="2190" y2="1422" stroke="#7030A0" stroke-width="1.5" marker-end="url(#arrowhead)" />
+  <rect x="2080" y="1422" width="220" height="46" rx="5" ry="5" fill="#FFF8E1" stroke="#FFC107" stroke-width="1.5" />
+  <text x="2190" y="1439" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="bold" fill="#333333">
+    <tspan x="2190" dy="0">Dukungan dan</tspan>
+  </text>
+  <text x="2190" y="1451" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="bold" fill="#333333">
+    <tspan x="2190" dy="0">kesiapan sekolah</tspan>
+  </text>
+  <line x1="2190" y1="1468" x2="2190" y2="1489" stroke="#7030A099" stroke-width="0.8" marker-end="" />
+  <rect x="2090" y="1487" width="200" height="22" rx="3" ry="3" fill="white" stroke="#7030A077" stroke-width="0.7" />
+  <text x="2190" y="1502" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="2190" dy="0">Dukungan terhadap sistem website (KS)</tspan>
+  </text>
+  <rect x="2090" y="1515" width="200" height="22" rx="3" ry="3" fill="white" stroke="#7030A077" stroke-width="0.7" />
+  <text x="2190" y="1530" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="2190" dy="0">Dukungan sekolah (KS)</tspan>
+  </text>
+  <rect x="2090" y="1543" width="200" height="22" rx="3" ry="3" fill="white" stroke="#7030A077" stroke-width="0.7" />
+  <text x="2190" y="1558" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="2190" dy="0">Implementasi bertahap (KS, OS)</tspan>
+  </text>
+  <rect x="2090" y="1571" width="200" height="22" rx="3" ry="3" fill="white" stroke="#7030A077" stroke-width="0.7" />
+  <text x="2190" y="1586" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="2190" dy="0">Sistem diterima jika sederhana (OS)</tspan>
+  </text>
+  <rect x="2090" y="1599" width="200" height="22" rx="3" ry="3" fill="white" stroke="#7030A077" stroke-width="0.7" />
+  <text x="2190" y="1614" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="2190" dy="0">Dukungan teknis operator (OS)</tspan>
+  </text>
+  <rect x="2090" y="1627" width="200" height="22" rx="3" ry="3" fill="white" stroke="#7030A077" stroke-width="0.7" />
+  <text x="2190" y="1642" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="2190" dy="0">Membantu pengawasan kepala sekolah ...</tspan>
+  </text>
+  <rect x="2090" y="1655" width="200" height="22" rx="3" ry="3" fill="white" stroke="#7030A077" stroke-width="0.7" />
+  <text x="2190" y="1670" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="8" font-weight="normal" fill="#444444">
+    <tspan x="2190" dy="0">Manfaat untuk guru (OS)</tspan>
+  </text>
+  <line x1="2085" y1="1489" x2="2085" y2="1666" stroke="#7030A044" stroke-width="1.5" />
+  <line x1="2190" y1="1468" x2="2085" y2="1489" stroke="#7030A066" stroke-width="1" />
+  <line x1="2085" y1="1498" x2="2090" y2="1498" stroke="#7030A066" stroke-width="0.8" />
+  <line x1="2085" y1="1526" x2="2090" y2="1526" stroke="#7030A066" stroke-width="0.8" />
+  <line x1="2085" y1="1554" x2="2090" y2="1554" stroke="#7030A066" stroke-width="0.8" />
+  <line x1="2085" y1="1582" x2="2090" y2="1582" stroke="#7030A066" stroke-width="0.8" />
+  <line x1="2085" y1="1610" x2="2090" y2="1610" stroke="#7030A066" stroke-width="0.8" />
+  <line x1="2085" y1="1638" x2="2090" y2="1638" stroke="#7030A066" stroke-width="0.8" />
+  <line x1="2085" y1="1666" x2="2090" y2="1666" stroke="#7030A066" stroke-width="0.8" />
+  <line x1="555.0" y1="250.0" x2="1065.0" y2="250.0" stroke="#888888" stroke-width="1.5" marker-end="url(#arrowhead-gray)" stroke-dasharray="6,4" />
+  <rect x="775.75" y="242.0" width="68.5" height="16" rx="3" ry="3" fill="white" stroke="none" stroke-width="0" />
+  <text x="810.0" y="254.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="normal" fill="#666666">
+    <tspan x="810.0" dy="0">is cause of</tspan>
+  </text>
+  <line x1="555.0" y1="250.0" x2="1915.0" y2="250.0" stroke="#888888" stroke-width="1.5" marker-end="url(#arrowhead-gray)" stroke-dasharray="6,4" />
+  <rect x="1181.5" y="242.0" width="107.0" height="16" rx="3" ry="3" fill="white" stroke="none" stroke-width="0" />
+  <text x="1235.0" y="254.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="normal" fill="#666666">
+    <tspan x="1235.0" dy="0">is associated with</tspan>
+  </text>
+  <line x1="453.30170288571566" y1="288.7638869569177" x2="666.6982971142844" y2="1311.2361130430822" stroke="#888888" stroke-width="1.5" marker-end="url(#arrowhead-gray)" stroke-dasharray="6,4" />
+  <rect x="531.25" y="792.0" width="57.5" height="16" rx="3" ry="3" fill="white" stroke="none" stroke-width="0" />
+  <text x="560.0" y="804.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="normal" fill="#666666">
+    <tspan x="560.0" dy="0">motivates</tspan>
+  </text>
+  <line x1="1144.1366025193402" y1="286.4146590985042" x2="755.8633974806598" y2="1313.5853409014958" stroke="#888888" stroke-width="1.5" marker-end="url(#arrowhead-gray)" stroke-dasharray="6,4" />
+  <rect x="921.25" y="792.0" width="57.5" height="16" rx="3" ry="3" fill="white" stroke="none" stroke-width="0" />
+  <text x="950.0" y="804.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="normal" fill="#666666">
+    <tspan x="950.0" dy="0">motivates</tspan>
+  </text>
+  <line x1="835.0" y1="1350.0" x2="1815.0" y2="1350.0" stroke="#888888" stroke-width="1.5" marker-end="url(#arrowhead-gray)" stroke-dasharray="6,4" />
+  <rect x="1279.75" y="1342.0" width="90.5" height="16" rx="3" ry="3" fill="white" stroke="none" stroke-width="0" />
+  <text x="1325.0" y="1354.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="normal" fill="#666666">
+    <tspan x="1325.0" dy="0">is addressed by</tspan>
+  </text>
+  <line x1="2037.77767428426" y1="289.8357282587082" x2="1962.22232571574" y2="1310.164271741292" stroke="#888888" stroke-width="1.5" marker-end="url(#arrowhead-gray)" stroke-dasharray="6,4" />
+  <rect x="1946.5" y="792.0" width="107.0" height="16" rx="3" ry="3" fill="white" stroke="none" stroke-width="0" />
+  <text x="2000.0" y="804.0" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="normal" fill="#666666">
+    <tspan x="2000.0" dy="0">is associated with</tspan>
+  </text>
+  <rect x="80" y="2110" width="700" height="55" rx="5" ry="5" fill="white" stroke="#ddd" stroke-width="1" />
+  <text x="110" y="2130" text-anchor="start" font-family="Segoe UI, Arial, sans-serif" font-size="10" font-weight="bold" fill="#333">
+    <tspan x="110" dy="0">LEGENDA:</tspan>
+  </text>
+  <rect x="180" y="2118" width="60" height="22" rx="4" ry="4" fill="#DAE3F3" stroke="#4472C4" stroke-width="1.5" />
+  <text x="210" y="2134" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="bold" fill="#333333">
+    <tspan x="210" dy="0">Tema</tspan>
+  </text>
+  <rect x="270" y="2118" width="80" height="22" rx="4" ry="4" fill="#FFF8E1" stroke="#FFC107" stroke-width="1.5" />
+  <text x="310" y="2134" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="bold" fill="#333333">
+    <tspan x="310" dy="0">Axial Code</tspan>
+  </text>
+  <rect x="380" y="2118" width="80" height="22" rx="3" ry="3" fill="white" stroke="#4472C477" stroke-width="0.7" />
+  <text x="420" y="2134" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="normal" fill="#333333">
+    <tspan x="420" dy="0">Open Code</tspan>
+  </text>
+  <line x1="485" y1="2130" x2="520" y2="2130" stroke="#595959" stroke-width="1.2" marker-end="url(#arrowhead)" />
+  <text x="545" y="2134" text-anchor="start" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="normal" fill="#595959">
+    <tspan x="545" dy="0">is part of</tspan>
+  </text>
+  <line x1="610" y1="2130" x2="645" y2="2130" stroke="#888" stroke-width="1.2" marker-end="url(#arrowhead-gray)" stroke-dasharray="6,4" />
+  <text x="660" y="2134" text-anchor="start" font-family="Segoe UI, Arial, sans-serif" font-size="9" font-weight="normal" fill="#666">
+    <tspan x="660" dy="0">relasi antar tema</tspan>
+  </text>
+</svg>
